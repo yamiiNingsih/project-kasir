@@ -66,6 +66,10 @@ Proyek ini bertujuan untuk membuat sistem kasir supermarket dengan alur sebagai 
 ## Flowchart
 ![image](https://github.com/yamiiNingsih/project-kasir/blob/main/Supermarket%20Andi-flowchart%20Supermarket.png)
 
+## Function atau atribut yang dibuat
+![image]()
+
+
  
  
 
