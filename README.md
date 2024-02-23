@@ -67,7 +67,81 @@ Proyek ini bertujuan untuk membuat sistem kasir supermarket dengan alur sebagai 
 ![image](https://github.com/yamiiNingsih/project-kasir/blob/main/Supermarket%20Andi-flowchart%20Supermarket.png)
 
 ## Function atau atribut yang dibuat
-![image]()
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/method%20dan%20fungsi.jpeg)
+
+## Test Case 1
+add item dan check 
+
+**Input:**<br />
+1. `trnsct_123 = Transaction()'
+2. 'trnsct_123.add_item("Ayam Goreng", 2, 20000)'
+3. 'trnsct_123.add_item("Pasta Gigi", 3, 15000)'
+4. 'trnsct_123.check_items()'
+
+**Output:**<br />
+
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/testing%201.jpeg)
+
+## Test Case 2
+delete item
+
+**Input:**<br />
+1. `trnsct_123.delete_item("Pasta Gigi")'
+2. 'trnsct_123.check_items()'
+
+**Output:**<br />
+
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/testing%202.jpeg)
+
+## Test Case 3
+reset item
+
+**Input:**<br />
+1. 'trnsct_123.reset_transaction()'
+2. 'trnsct_123.check_items()'
+
+**Output:**<br />
+
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/testing%203.jpeg)
+
+## Test Case 4
+check order
+
+**Input:**<br />
+1. 'trnsct_123 = Transaction()'
+2. 'trnsct_123.add_item("Ayam Goreng", 2, 20000)'
+3. 'trnsct_123.add_item("Pasta Gigi", 3, 15000)'
+4. 'trnsct_123.add_item("Mainan Mobil", 1, 200000)'
+5. 'trnsct_123.add_item("Mi Instan", 5, 3000)'
+6. 'trnsct_123.check_order()''
+
+
+**Output:**<br />
+
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/testing%204.jpeg)
+
+## Test case5
+Menghitung Total yang harus dibayar
+
+**Input:**<br />
+1. 'trnsct_123.total_price()'
+2. 'trnsct_123.check_items()''
+
+![image](https://github.com/yamiiNingsih/project-kasir/blob/main/testing%205.jpeg)
+
+## Kesimpulan
+Sistem kasir swalayan dibuat dengan menggunakan bahasa pemrograman Python untuk memudahkan pelanggan dalam melakukan transaksi belanja. Sistem ini mempunyai beberapa fitur seperti menambah barang, memperbarui nama barang, memperbarui jumlah barang, memperbarui harga barang, menghapus satu barang, menghapus semua barang, menghitung total harga barang dan diskon yang diperoleh, serta menampilkan tabel belanja.
+
+Karena sistem kasir ini berkonsep self-service, maka fitur-fiturnya masih dapat dikembangkan agar lebih ramah pengguna, seperti:
+
+ * Menggunakan fitur input untuk membantu pelanggan menambah dan memperbarui/mengubah item yang ingin dibeli tanpa harus mengetikkan nama item secara manual.
+ * Menyediakan katalog belanja atau daftar barang yang tersedia di supermarket yang terhubung dengan database untuk meminimalkan kesalahan.
+
+
+
+
+
+
 
 
  
