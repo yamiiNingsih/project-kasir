@@ -28,14 +28,42 @@ Sehingga customer yang tidak berada di kota tersebut bisa membeli barang dari su
    a). Menghapus salah satu item dari nama item dengan method
        delete_item(<nama item>)
    
-   b). reset all transactions
+   b). Jika ingin menghapus semua transaksi maka dapat menggunakan 
+       method
+      reset_transaction()
+
    
-6. If the customers have finished purchasing, but are still unsure whether the price of the items and name entered are correct, the customers can check the order with the following output:
+5. Setelah selesai melakukan pengecekan,customer dapat menghitung total belanja yang sudah dibeli. Dengan menggunakan method total_harga(). Pada supermarket ini terdapat ketentuan :
+   a). Jika total belanja customer diatas Rp 200.000 maka akan 
+       mendapatkan diskon 5%
+   b). Jika total belanja customer diatas Rp 300.000 maka akan 
+       mendapatkan diskon 8%
+   c). Jika total belanja customer diatas Rp 500.000 maka akan 
+       mendapatkan diskon 10%
    
-   a). Issue the message "Order is correct" if there are no input errors.
-   
-   b). Issue the message "There is a data input error" if an input error occurs.
-   
-   c). Displays a table containing all order data.
-   
-7. Finally, the customers can display the total price of the items which should be paid and the discount obtained (if any).
+## Objectif :
+Proyek ini bertujuan untuk membuat sistem kasir supermarket dengan alur sebagai berikut:
+   a). Pelanggan memasukkan nama barang, jumlah barang, dan harga 
+       barang yang dibeli.
+   b). Jika terjadi kesalahan dalam memasukkan nama barang, jumlah 
+       barang, atau harga barang, pelanggan dapat mengubah atau 
+       memperbarui barang tersebut:
+        * perbarui nama item
+        * perbarui jumlah item
+        * perbarui harga barang
+   c). Jika pelanggan membatalkan pembelian suatu barang, pelanggan 
+       dapat menghapus barang tersebut:
+        * hapus satu baris 
+        * reset semua transaksi
+   d). Jika pelanggan sudah selesai membeli, namun masih ragu apakah 
+       harga barang dan nama     yang dimasukkan sudah benar, 
+       pelanggan dapat memeriksa pesanan dengan output sebagai 
+       berikut:
+        * Keluarkan pesan “Pesanan sudah benar” jika tidak ada 
+          kesalahan input.
+        * Mengeluarkan pesan “Ada kesalahan input data” jika terjadi 
+          kesalahan input.
+        * Menampilkan tabel yang berisi semua data pesanan.
+ 
+
+
